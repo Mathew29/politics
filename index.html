@@ -6,48 +6,53 @@
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
 
-    <title>Amusement Park Rides</title>
+    <title>Political Party</title>
   </head>
   <body>
     <div class="container">
       <h1>Political Views</h1>
       <h3>What party are you in?</h3>
+      <div id="questions">
+        <p>build the wall?</p>
+        <form id="user">
+          <div class="radio1">
+            <label>
+              <input type="radio" name="wall" value="yes"> yes
+            </label>
+          </div>
+          <div class="radio1">
+            <label>
+              <input type="radio" name="wall" value="no"> no
+            </label>
+          </div>
 
-      <p>build the wall?</p>
-      <div class="radio1">
-        <label>
-          <input type="radio" name="wall" value="yes"> Yes
-        </label>
-      </div>
-      <div class="radio1">
-        <label>
-          <input type="radio" name="wall" value="No"> No
-        </label>
+          <p>guns?</p>
+          <div class="radio2">
+            <label>
+              <input type="radio" name="guns" value="yes"> yes
+            </label>
+          </div>
+          <div class="radio2">
+            <label>
+              <input type="radio" name="guns" value="no"> no
+            </label>
+          </div>
+
+          <p>ice?</p>
+          <div class="radio3">
+            <label>
+              <input type="radio" name="ice" value="yes"> yes
+            </label>
+          </div>
+          <div class="radio3">
+            <label>
+              <input type="radio" name="ice" value="no"> no
+            </label>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
       </div>
 
-      <p>guns?</p>
-      <div class="radio2">
-        <label>
-          <input type="radio" name="guns" value="yes"> Yes
-        </label>
-      </div>
-      <div class="radio2">
-        <label>
-          <input type="radio" name="guns" value="No"> No
-        </label>
-      </div>
-
-      <p>ice?</p>
-      <div class="radio3">
-        <label>
-          <input type="radio" name="ice" value="yes"> Yes
-        </label>
-      </div>
-      <div class="radio3">
-        <label>
-          <input type="radio" name="ice" value="No"> No
-        </label>
-      </div>
 
       <div id="party">
         <div id="neutral">
